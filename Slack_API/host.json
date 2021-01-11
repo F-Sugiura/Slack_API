@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+          "IsEncrypted": false,
+          "Values": {
+            "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+            "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+            "Token": "Token",
+            "Channel": "ChannnelId"
+          }
+      }
+    }
+  }
+}
